@@ -1,0 +1,59 @@
+.dark-button {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-main);
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: color .3s linear, background-color .3s linear;
+    min-height: 40px;
+    width: fit-content;
+
+    @include hover() {
+        color: #000;
+        background-color: transparent;
+    }
+
+    &--ghost {
+        background-color: transparent;
+        border: 1px solid #000;
+        color: #000;
+
+        @include hover() {
+            color: #fff;
+            background-color: #000;
+        }
+    }
+}
+
+.white-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-main);
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: color .3s linear, background-color .3s linear;
+    min-height: 48px;
+    width: fit-content;
+
+    @include hover() {
+        color: #fff;
+        background-color: transparent;
+    }
+
+    &--ghost {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+
+        @include hover() {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+}

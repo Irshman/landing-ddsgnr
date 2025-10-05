@@ -1,0 +1,26 @@
+:root {
+	--container-width: 1342px;
+	--container-padding: 15px;
+
+	--font-main: 'Roboto', sans-serif;
+	--font-accent: 'Roboto', sans-serif;
+	--font-addition: 'Inter', sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #10F2C5;
+	--link-color: #000;
+	--grey: #676767;
+
+
+    --laptop-size: 1199px;
+	--laptop-small: 1024px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

@@ -1,0 +1,23 @@
+.nav {
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+}
+.nav__list {
+	display: flex;
+	column-gap: 16px;
+
+	@include smallLaptop() {
+		display: none;
+	}
+
+	li a{
+		padding: 10px;
+	}
+}
+.active {
+	// color: var(--accent);
+	border-bottom: 1px solid var(--text-color);
+}

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ddsgnr</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<div class="header__contacts">
+						<div class="header__phone">
+							<span>Phone Number:</span>
+							<a href="tel:956742455678">956 742 455 678</a>
+						</div>
+						<div class="header__email">
+							<span>Email:</span>
+							<a href="mailto:info@ddsgnr.com">info@ddsgnr.com</a>
+						</div>
+					</div>
+
+					<ul class="header__social">
+						<li class="social__item">
+							<a href="#">
+								<svg class="icon icon--facebook">
+									<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#">
+								<svg class="icon icon--instagram">
+									<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#">
+								<svg class="icon icon--twitter">
+									<use href="./img/svgsprite/sprite.symbol.svg#twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#">
+								<svg class="icon icon--linkedIn">
+									<use href="./img/svgsprite/sprite.symbol.svg#linkedIn"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="header__bottom">
+					<div class="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
+					<div class="logo"><img src="./img/logo.svg" alt="Logo" /></div>
+					<nav class="header__nav nav">
+						<ul class="nav__list">
+							<li><a href="#" class="active">Home</a></li>
+							<li><a href="#">Treatment</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+						<div class="header__buttons">
+							<form class="search" action="search">
+								<input placeholder="Search" class="search__input" type="text" />
+								<button class="search__button" type="submit">
+									<svg class="icon icon--search-normal">
+										<use href="./img/svgsprite/sprite.symbol.svg#search-normal"></use>
+									</svg>
+								</button>
+							</form>
+							<button class="dark-button">
+								Book an&#160;Appointment
+							</button>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">Treatment</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+
+		<main class="docs">
+			<section class="hero">
+				<div class="container">
+					<div class="hero__content">
+						<h1 class="hero__title">Give your body the best trearment!</h1>
+						<p class="hero__description">Our expert team of&#160;doctors and nurses provide personalized care to&#160;meet your individual needs.</p>
+						<div class="hero__buttons">
+							<button class="white-button">Book an&#160;Appointment</button>
+							<button class="white-button white-button--ghost">Explore Treatment</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="container">
+					<div class="about__row">
+						<div class="about__column">
+							<h2 class="about__title">About Us</h2>
+							<div class="about__description">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique. Duis cursus, mi&#160;quis
+									viverra ornare, eros dolor interdum nulla, ut&#160;commodo diam libero vitae erat.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique. Duis cursus, mi&#160;quis
+									viverra ornare, eros dolor interdum nulla, ut&#160;commodo diam libero vitae erat.
+								</p>
+							</div>
+							<button class="about__button dark-button dark-button--ghost">Book an&#160;Appointment</button>
+						</div>
+						<div class="about__column about__image">
+							<picture>
+								<source srcset="./img/about-img.webp 1x, ./img/about-img@2x.webp 2x" type="image/webp" />
+								<img src="./img/about-img.webp" srcset="./img/about-img.png" alt="Alt" />
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="container">
+					<div class="services__row">
+						<div class="services__column">
+							<ul class="services__list">
+								<li class="services__item">
+									<svg class="icon icon--moon">
+										<use href="./img/svgsprite/sprite.symbol.svg#moon"></use>
+									</svg>
+									<h5 class="services__title">Meditation</h5>
+									<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros.</p>
+									<a class="services__link" href="#">
+										Learn More
+										<svg class="icon icon--arrow-down">
+											<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="services__item">
+									<svg class="icon icon--chart">
+										<use href="./img/svgsprite/sprite.symbol.svg#chart"></use>
+									</svg>
+									<h5 class="services__title">Therapy</h5>
+									<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros.</p>
+									<a class="services__link" href="#">
+										Learn More
+										<svg class="icon icon--arrow-down">
+											<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="services__item">
+									<svg class="icon icon--heart-circle">
+										<use href="./img/svgsprite/sprite.symbol.svg#heart-circle"></use>
+									</svg>
+									<h5 class="services__title">Natural Beauty</h5>
+									<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros.</p>
+									<a class="services__link" href="#">
+										Learn More
+										<svg class="icon icon--arrow-down">
+											<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="services__item">
+									<svg class="icon icon--emoji-happy">
+										<use href="./img/svgsprite/sprite.symbol.svg#emoji-happy"></use>
+									</svg>
+									<h5 class="services__title">Massages</h5>
+									<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros.</p>
+									<a class="services__link" href="#">
+										Learn More
+										<svg class="icon icon--arrow-down">
+											<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+
+							<div class="services__buttons">
+								<button class="services__button dark-button dark-button--ghost">Book an&#160;Appointment</button>
+								<a class="services__link" href="#">
+									Learn More
+									<svg class="icon icon--arrow-down">
+										<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="services__column services__image">
+							<picture>
+								<source srcset="./img/services-img.webp 1x, ./img/services-img@2x.webp 2x" type="image/webp" />
+								<img src="./img/services-img.webp" srcset="./img/services-img.png" alt="Alt" />
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="posts">
+				<div class="container">
+					<div class="posts__header">
+						<h2 class="posts__title">Our Treatment</h2>
+						<div class="posts__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+					</div>
+					<div class="posts__grid">
+						<article class="posts__item post">
+							<div class="post__image">
+								<picture>
+									<source srcset="./img/post-1.webp 1x, ./img/post-1@2x.webp 2x" type="image/webp" />
+									<img src="./img/post-1.webp" srcset="./img/post-1.png" alt="Post 1" />
+								</picture>
+							</div>
+							<div class="post__content">
+								<div class="post__row">
+									<h3 class="post__title">Laser Treatment Consultation</h3>
+									<span class="post__tag">$62 For 2 Hours</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique.</p>
+							</div>
+							<button class="post__button dark-button dark-button--ghost">Book Now</button>
+						</article>
+						<article class="posts__item post">
+							<div class="post__image">
+								<picture>
+									<source srcset="./img/post-1.webp 1x, ./img/post-1@2x.webp 2x" type="image/webp" />
+									<img src="./img/post-1.webp" srcset="./img/post-1.png" alt="Post 1" />
+								</picture>
+							</div>
+							<div class="post__content">
+								<div class="post__row">
+									<h3 class="post__title">Laser Treatment Consultation</h3>
+									<span class="post__tag">$62 For 2 Hours</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique.</p>
+							</div>
+							<button class="post__button dark-button dark-button--ghost">Book Now</button>
+						</article>
+						<article class="posts__item post">
+							<div class="post__image">
+								<picture>
+									<source srcset="./img/post-1.webp 1x, ./img/post-1@2x.webp 2x" type="image/webp" />
+									<img src="./img/post-1.webp" srcset="./img/post-1.png" alt="Post 1" />
+								</picture>
+							</div>
+							<div class="post__content">
+								<div class="post__row">
+									<h3 class="post__title">Laser Treatment Consultation</h3>
+									<span class="post__tag">$62 For 2 Hours</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique.</p>
+							</div>
+							<button class="post__button dark-button dark-button--ghost">Book Now</button>
+						</article>
+						<article class="posts__item post">
+							<div class="post__image">
+								<picture>
+									<source srcset="./img/post-1.webp 1x, ./img/post-1@2x.webp 2x" type="image/webp" />
+									<img src="./img/post-1.webp" srcset="./img/post-1.png" alt="Post 1" />
+								</picture>
+							</div>
+							<div class="post__content">
+								<div class="post__row">
+									<h3 class="post__title">Laser Treatment Consultation</h3>
+									<span class="post__tag">$62 For 2 Hours</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique.</p>
+							</div>
+							<button class="post__button dark-button dark-button--ghost">Book Now</button>
+						</article>
+						<article class="posts__item post">
+							<div class="post__image">
+								<picture>
+									<source srcset="./img/post-1.webp 1x, ./img/post-1@2x.webp 2x" type="image/webp" />
+									<img src="./img/post-1.webp" srcset="./img/post-1.png" alt="Post 1" />
+								</picture>
+							</div>
+							<div class="post__content">
+								<div class="post__row">
+									<h3 class="post__title">Laser Treatment Consultation</h3>
+									<span class="post__tag">$62 For 2 Hours</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique.</p>
+							</div>
+							<button class="post__button dark-button dark-button--ghost">Book Now</button>
+						</article>
+						<article class="posts__item post">
+							<div class="post__image">
+								<picture>
+									<source srcset="./img/post-1.webp 1x, ./img/post-1@2x.webp 2x" type="image/webp" />
+									<img src="./img/post-1.webp" srcset="./img/post-1.png" alt="Post 1" />
+								</picture>
+							</div>
+							<div class="post__content">
+								<div class="post__row">
+									<h3 class="post__title">Laser Treatment Consultation</h3>
+									<span class="post__tag">$62 For 2 Hours</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique.</p>
+							</div>
+							<button class="post__button dark-button dark-button--ghost">Book Now</button>
+						</article>
+					</div>
+					<button class="posts__button dark-button dark-button--ghost">View all</button>
+				</div>
+			</section>
+			<section class="about">
+				<div class="container">
+					<div class="about__row">
+						<div class="about__column">
+							<h2 class="about__title">Face & Body Treatments</h2>
+							<div class="about__description">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique. Duis cursus, mi&#160;quis
+									viverra ornare, eros dolor interdum nulla, ut&#160;commodo diam libero vitae erat.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique. Duis cursus, mi&#160;quis
+									viverra ornare, eros dolor interdum nulla, ut&#160;commodo diam libero vitae erat.
+								</p>
+							</div>
+							<button class="about__button dark-button dark-button--ghost">Book an&#160;Appointment</button>
+						</div>
+						<div class="about__column about__image">
+							<picture>
+								<source srcset="./img/about-img-2.webp 1x, ./img/about-img-2@2x.webp 2x" type="image/webp" />
+								<img src="./img/about-img-2.webp" srcset="./img/about-img-2.png" alt="Alt" />
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="container">
+					<div class="about__row">
+						<div class="about__column about__image">
+							<picture>
+								<source srcset="./img/image-3.webp 1x, ./img/image-3@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/image-3.png 1x, ./img/image-3@2x.png 2x" type="image/png" />
+								<img src="./img/image-3.png" srcset="./img/image-3.png" alt="Alt" />
+							</picture>
+						</div>
+
+						<div class="about__column">
+							<h2 class="about__title">Make A&#160;Good Career</h2>
+							<div class="about__description">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique. Duis cursus, mi&#160;quis
+									viverra ornare, eros dolor interdum nulla, ut&#160;commodo diam libero vitae erat.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in&#160;eros elementum tristique. Duis cursus, mi&#160;quis
+									viverra ornare, eros dolor interdum nulla, ut&#160;commodo diam libero vitae erat.
+								</p>
+							</div>
+							<button class="about__button dark-button dark-button--ghost">Explore Careers</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts">
+				<div class="container">
+					<div class="contacts__header">
+						<h2 class="contacts__title">Contact Us</h2>
+						<p class="contacts__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+
+					<form action="" class="contacts__form form">
+						<label for="name">Name</label>
+						<input class="form__input" id="name" type="text" placeholder="Your name" />
+						<label for="email">Email</label>
+						<input class="form__input" id="email" type="email" placeholder="Your email" />
+						<label for="message">Message</label>
+						<textarea class="form__textarea" name="message" id="message" placeholder="Type your message..."></textarea>
+						<button class="form__button white-button" type="submit">Submit</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__newsletter newsletter">
+						<div class="newsletter__content">
+							<h4 class="newsletter__title">Subscribe to&#160;our newsletter</h4>
+							<p class="newsletter__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<form action="" class="newsletter__form">
+							<div class="newsletter__row">
+								<div class="input"><input type="email" placeholder="Enter your email" /></div>
+								<button class="white-button white-button--ghost" type="submit">Subscribe</button>
+							</div>
+							<p class="newsletter__subtext">By&#160;subscribing you agree to&#160;with our <a href="#">Privacy Policy</a></p>
+						</form>
+					</div>
+					<div class="footer__menus menus">
+						<div class="menus__logo menus__column"><img src="./img/white-logo.svg" alt="Logo" /></div>
+						<ul class="menus__column menus__menu-1 menu">
+							<h5 class="menu__title">Explore</h5>
+							<li class="menu__item"><a href="#">Treatment</a></li>
+							<li class="menu__item"><a href="#">Locations</a></li>
+							<li class="menu__item"><a href="#">Services</a></li>
+						</ul>
+						<ul class="menus__column menus__menu-2 menu">
+							<h5 class="menu__title">Resources</h5>
+							<li class="menu__item"><a href="#">Career</a></li>
+							<li class="menu__item"><a href="#">Communities Servies</a></li>
+							<li class="menu__item"><a href="#">Blog</a></li>
+							<li class="menu__item"><a href="#">Voluntering</a></li>
+							<li class="menu__item"><a href="#">Jobs</a></li>
+						</ul>
+						<ul class="menus__column menus__menu-3 menu">
+							<h5 class="menu__title">About Us</h5>
+							<li class="menu__item"><a href="#">Contact</a></li>
+							<li class="menu__item"><a href="#">Help/Support</a></li>
+							<li class="menu__item"><a href="#">FAQ</a></li>
+							<li class="menu__item"><a href="#">Terms and Conditions</a></li>
+							<li class="menu__item"><a href="#">Partners</a></li>
+						</ul>
+					</div>
+					<div class="footer__copyright copyright">
+						<div class="copyright__info">
+							<div class="copyright__text">2023 Ddsgnr. All right reserved.</div>
+							<ul class="copyright__list">
+								<li class="copyright__list-item"><a href="#">Privacy Policy</a></li>
+								<li class="copyright__list-item"><a href="#">Terms of&#160;Service</a></li>
+								<li class="copyright__list-item"><a href="#">Cookies Settings</a></li>
+							</ul>
+						</div>
+
+						<ul class="copyright__social">
+							<li class="social__item">
+								<a href="#">
+									<svg class="icon icon--facebook">
+										<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#">
+									<svg class="icon icon--instagram">
+										<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#">
+									<svg class="icon icon--twitter">
+										<use href="./img/svgsprite/sprite.symbol.svg#twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#">
+									<svg class="icon icon--linkedIn">
+										<use href="./img/svgsprite/sprite.symbol.svg#linkedIn"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

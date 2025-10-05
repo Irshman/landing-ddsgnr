@@ -1,0 +1,186 @@
+.footer {
+	background-color: #000;
+	padding: 80px 0;
+	font-size: 14px;
+	color: #fff;
+
+	@include mobile {
+		padding: 48px 0;
+	}
+
+	&__row {
+		display: flex;
+		flex-direction: column;
+		row-gap: 80px;
+	}
+
+	&__newsletter {
+	}
+
+	&__menus {
+	}
+
+	&__copyright {
+	}
+}
+
+.newsletter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 32px;
+
+	&__title {
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	&__text {
+		font-size: 16px;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		@include mobile {
+			width: 100%;
+		}
+
+		.input {
+			border: 1px solid #fff;
+			border-radius: 5px;
+			
+			@include mobile {
+			width: 100%;
+		}
+
+			input {
+				min-width: 265px;
+				padding: 8px 12px;
+				min-height: 48px;
+				font-size: 16px;
+				color: #fff;
+
+				&::placeholder {
+					font-size: 16px;
+					color: #fff;
+				}
+
+				@include mobile {
+					min-width: unset;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 16px;
+
+		@include mobile {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+
+	&__subtext {
+		font-size: 12px;
+		a {
+			color: #fff;
+			text-decoration: underline;
+
+			@include hover() {
+			color: var(--accent);
+		}
+		}
+	}
+}
+
+.menus {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 40px;
+
+	&__column {
+		width: 100%;
+		max-width: 290px;
+	}
+
+	&__logo {
+	}
+
+	@include custom (1024px) {
+		flex-wrap: wrap;
+	}
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	&__title {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 16px;
+	}
+	&__item a {
+		color: #fff;
+		font-size: 14px;
+		transition: color .3s linear;
+
+		@include hover() {
+			color: var(--accent);
+		}
+	}
+}
+.copyright {
+	border-top: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 32px;
+	padding-top: 32px;
+
+	&__info {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 24px;
+	}
+	&__text {
+	}
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 24px;
+	}
+	&__list-item a {
+		color: #fff;
+		font-size: 14px;
+		text-decoration: underline;
+
+		@include hover() {
+			color: var(--accent);
+		}
+	}
+	&__social {
+		display: flex;
+		gap: 12px;
+		.social__item {
+		.icon {
+			fill: #fff;
+		}
+	}
+	}
+}
